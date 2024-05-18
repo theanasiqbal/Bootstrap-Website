@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.navbar-brand img{
+    padding-left: 20px;
+    height: 40px;
+}
+
+/* BANNER */
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 5%;
+}
+.play-btn{
+    width: 45px;
+}
+
+/* services */
+
+#services .btn{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* about us  */
+#about-us{
+    background: #f8f9fa;
+}
+
+/* SOCIAL MEDIA  */
+
+
+#social-media{
+    background: #f8f9fa;
+}
+
+.social-icon{
+    transition: 1s;
+}
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+/* footer */
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#news{
+    box-shadow: none;
+    border-radius: 0;
+    max-width: 250px;
+}
+
+.btn{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* MAIN */
+
+#main .headings{
+    color: #a517ba;
+}
